@@ -39,11 +39,12 @@ a {
 
 .books {
     margin: 10px 0 30px 0;
+    table-layout: auto;
 }
 
 .books tr th, td {
     margin: 15px;
-    background-color: aqua;
+    width: 100px;
 }
 
 .new-book {
@@ -53,6 +54,11 @@ a {
 .submit-button {
     display: block;
 }
+
+.edit-form-button {
+    display: block;
+}
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
